@@ -3,9 +3,6 @@
 
 <header class="collectionHeader">
         <div class="layoutSingleColumn layoutSingleColumn--wide u-clearfix">
-        <div class="collectionHeader-logo">
-            <a><img class="collectionHeader-logoImage" src="<?php $this->options->themeUrl('img/category/'); ?><?php echo $this->categories[0]['slug'] . '.jpg'; ?>"></a>
-        </div>
         <div class="collectionHeader-nameAndDescription">
             <h1 class="collectionHeader-name"><?php $this->category(',',false); ?></h1>
             <div class="collectionHeader-description"><p><?php echo $this->getDescription(); ?></p>
@@ -46,9 +43,6 @@
   <div class="layoutMultiColumn layoutMultiColumn--secondary">
     <div class="js-sidebar u-paddingTop50">
         <div class="widget-card">
-            <div class="widget-card-imageWrapper">
-                <img class="widget-card-image" width="32" height="32" src="<?php $this->options->themeUrl('img/category/'); ?><?php echo $this->categories[0]['slug'] . '.jpg'; ?>">
-            </div>
             <div class="widget-card-content"><?php echo $this->category(',',false); ?></div>
             <div class="widget-card-description">
                 <p><?php echo $this->getDescription(); ?></p>

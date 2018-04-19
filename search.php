@@ -42,5 +42,5 @@
     });
     InstantClick.init();
     </script>
-</body>
-</html>
+
+<?php $this->need('footer.php'); ?>

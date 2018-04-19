@@ -6,7 +6,7 @@ function themeConfig($form) {
     $nickname = new Typecho_Widget_Helper_Form_Element_Text('nickname', NULL, '', _t('侧边栏显示的昵称'), _t('显示在头像右侧'));
     $form->addInput($nickname);
 
-    $descript = new Typecho_Widget_Helper_Form_Element_Text('descript', NULL, 'computer loser', _t(' 个人描述'), _t('将显示在侧边栏的昵称下方'));
+    $descript = new Typecho_Widget_Helper_Form_Element_Text('descript', 'sueysok', 'description', _t(' 个人描述'), _t('将显示在侧边栏的昵称下方'));
     $form->addInput($descript);
 
     //设置图片CDN替换规则     
